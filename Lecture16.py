@@ -1,0 +1,13 @@
+print("A")
+print(type("Hello World"))
+print(type("A"))
+
+print("10")
+print(type("10"))
+print(type(10))
+print(type(type(10+3.5)))
+print(type(10.99))
+print(type(-599))
+print(type(10j))
+print(type(True))
+print(type(False))
