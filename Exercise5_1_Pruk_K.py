@@ -1,0 +1,10 @@
+x = int(input("Input Number 1:"))
+y = int(input("Input Number 1:"))
+plus = x + y
+minus = x - y
+multi = x * y
+divide = int(x /y)
+print(x,"+",y,"=",plus)
+print(x,"-",y,"=",minus)
+print(x,"*",y,"=",multi)
+print(x,"/",y,"=",divide)
