@@ -1,0 +1,57 @@
+customerId = "Nong_TER"
+customerPass = "TER_1234@"
+customerIdInput = input("ID :")
+customerPassInput = input("Pass :")
+if customerId == customerIdInput and customerPass == customerPassInput:
+    print("Welcome to DOLL SHOP")
+    print("-----Product & Price List-----")
+    print("1. Monkey Doll        1 ea  :: 200 THB")
+    print("2. Banana Doll        1 ea  :: 300 THB")
+    print("3. Super Man Doll     1 ea  :: 400 THB")
+    print("4. Pikachu Doll       1 ea  :: 500 THB")
+    print("5. Green Frog Doll    1 ea  :: 600 THB")
+    customerSelect = int(input("Please select the doll ::"))
+    if customerSelect == 1:
+        amountOfDoll = int(input("Please input amount of the doll ::"))
+        totalExVat = (amountOfDoll * 200)
+        totalInVat = (totalExVat + (totalExVat*0.07))
+        print("--------------------------------------")
+        print("Price (exclude vat.) =", totalExVat)
+        print("------Vat = 7%------")
+        print("Price (include vat.) =", totalInVat)
+    elif customerSelect == 2:
+        amountOfDoll = int(input("Please input amount of the doll ::"))
+        totalExVat = (amountOfDoll * 300)
+        totalInVat = (totalExVat + (totalExVat*0.07))
+        print("--------------------------------------")
+        print("Price (exclude vat.) =",totalExVat)
+        print("------Vat = 7%------")
+        print("Price (include vat.) =", totalInVat)
+    elif customerSelect == 3:
+        amountOfDoll = int(input("Please input amount of the doll ::"))
+        totalExVat = (amountOfDoll * 400)
+        totalInVat = (totalExVat + (totalExVat*0.07))
+        print("--------------------------------------")
+        print("Price (exclude vat.) =",totalExVat)
+        print("------Vat = 7%------")
+        print("Price (include vat.) =", totalInVat)
+    elif customerSelect == 4:
+        amountOfDoll = int(input("Please input amount of the doll ::"))
+        totalExVat = (amountOfDoll * 500)
+        totalInVat = (totalExVat + (totalExVat*0.07))
+        print("--------------------------------------")
+        print("Price (exclude vat.) =",totalExVat)
+        print("------Vat = 7%------")
+        print("Price (include vat.) =", totalInVat)
+    elif customerSelect == 5:
+        amountOfDoll = int(input("Please input amount of the doll ::"))
+        totalExVat = (amountOfDoll * 600)
+        totalInVat = (totalExVat + (totalExVat*0.07))
+        print("--------------------------------------")
+        print("Price (exclude vat.) =",totalExVat)
+        print("------Vat = 7%------")
+        print("Price (include vat.) =", totalInVat)
+    else:
+        print("Error select")
+else:
+    print("Your ID or Pass was wrong, Please try again!!!")
